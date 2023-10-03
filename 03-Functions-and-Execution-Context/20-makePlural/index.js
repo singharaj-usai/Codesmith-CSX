@@ -1,6 +1,9 @@
-function makePlural(arr){
-    // ADD CODE HERE
-}
+const makePlural = (arr) => {
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] += "s";
+    }
+    return arr;
+};
 
 
 const arr1 = ['lion', 'tiger', 'bear']
