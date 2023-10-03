@@ -1,8 +1,15 @@
-function droids(arr) {
+const droids = (arr) => {
     let result = '';
-    // ADD CODE HERE
+    arr.forEach((i) => {
+        if (i === "Droids") {
+            result = "Found Droids!";
+        }
+    })
+    if (result === '') {
+        result = "These are not the droids you're looking for.";
+    }
     return result;
-}
+};
 
 // Uncomment these to check your work!
 // const starWars = ["Luke", "Finn", "Rey", "Kylo", "Droids"]
