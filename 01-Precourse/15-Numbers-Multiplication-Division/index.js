@@ -1,6 +1,6 @@
 // ADD CODE BELOW
 
-const twentyTimesfour = 20 * 4;
+const twentyTimesFour = 20 * 4;
 
 const nineOverThree = 9 / 3;
 
