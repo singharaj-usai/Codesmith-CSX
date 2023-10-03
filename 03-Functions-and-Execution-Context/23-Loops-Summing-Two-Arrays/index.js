@@ -1,6 +1,9 @@
-function mergingElements(array1, array2){
-    // ADD CODE HERE
-}
+const mergingElements = (array1, array2) => {
+    if (array1.length !== array2.length) {
+        throw Error("Arrays must have the same length");
+    }
+    return array1.map((num1, index) => num1 + array2[index]);
+};
 
 // Uncomment these to check your work!
 // console.log(mergingElements([1, 2, 3, 4], [5, 6, 7, 8])); // expected log [6, 8, 10, 12]
