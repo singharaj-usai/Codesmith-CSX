@@ -5,6 +5,7 @@ var firstName = "Jenny";
 
 // ADD CODE HERE
 
+var lastName = "Jennifer"
 
 // Uncomment the line below to check your work!
 // console.log("Hi, " + firstName + " " + lastName);
