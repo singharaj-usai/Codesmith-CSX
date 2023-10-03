@@ -1,20 +1,12 @@
 let calls = "";
 
-function jerry(str) {
+const jerry = (str) => (str += "Jerry") && kramer(str);
 
-}
+const george = (str) => (str += "George") && elaine(str);
 
-function george(str) {
+const elaine = (str) => (str += "Elaine") && jerry(str);
 
-}
-
-function elaine(str) {
-
-}
-
-function kramer(str) {
-
-}
+const kramer = (str) => (str += "Kramer") && george(str);
 
 
 // Uncomment these to check your work!
