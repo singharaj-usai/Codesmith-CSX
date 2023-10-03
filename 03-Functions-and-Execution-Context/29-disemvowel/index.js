@@ -1,5 +1,13 @@
-function disemvowel(string) {
-    // ADD CODE HERE
+const disemvowel = (string) => {
+    const vowels = "aeiou";
+    let result = "";
+
+    for (let i = 0; i < string.length; i++) {
+        if (!vowels.includes(string[i])) {
+            result += string[i];
+        }
+    }
+    return result;
 }
 
 // Uncomment these to check your work!
