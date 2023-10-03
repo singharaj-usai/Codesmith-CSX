@@ -7,3 +7,9 @@ const checkObj = {
 
 let found = 0;
 // ADD CODE HERE
+
+for (let i in checkObj) {
+    if (i === "foundNum") {
+        found = 1;
+    }
+}
