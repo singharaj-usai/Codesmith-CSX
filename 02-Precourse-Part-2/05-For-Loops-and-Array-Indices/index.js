@@ -11,4 +11,11 @@ const bios = [];
 // 'My name is Jamie Lannister and I am from Kings Landing'
 
 // ADD CODE HERE
+for (let i = 0; i < firstNames.length; i++) {
+    const fullName = `${firstNames[i]} ${lastNames[i]}`;
+    const place = places[i];
+    const bio = `My name is ${fullName} and I am from ${place}`;
+    bios.push(bio);
+}
 
+console.log(bios);
