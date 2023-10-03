@@ -1,6 +1,8 @@
-function getRemainder(num1, num2) {
-    // INSERT CODE HERE
-}
+const getRemainder = (num1, num2) => {
+    const largeNum = Math.max(num1, num2);
+    const smallerNum = Math.min(num1, num2);
+    return largeNum % smallerNum;
+};
 
 // Uncomment the lines below to test your code
 // console.log(getRemainder(17, 5)); // => 2
