@@ -4,3 +4,8 @@ let num3 = 92;
 let num4 = 64;
 
 // ADD CODE BELOW HERE
+
+num1 += 17;
+num2 -= 14;
+num3 *= 11;
+num4 /= 8;
