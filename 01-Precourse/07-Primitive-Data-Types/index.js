@@ -1,6 +1,9 @@
 // ADD CODE HERE
 
-
+const name = "Singharaj";
+let age = 24;
+const loveJavaScript = true;
+let listOfComplaints = null;
 
 // Uncomment these to check your work!
 // console.log('My name is ' + name);
