@@ -1,6 +1,4 @@
-function lastLetter(word) {
-    // INSERT CODE HERE
-}
+const lastLetter = (word) => word[word.length -1];
 
 // Uncomment the lines below to test your code
 // console.log(lastLetter("hello")); //=> "o"
