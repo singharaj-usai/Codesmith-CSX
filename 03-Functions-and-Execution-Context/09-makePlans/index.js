@@ -1,13 +1,9 @@
 let friendsAvailable = true;
 
-function makePlans(name) {
-    // INSERT CODE HERE
-}
+const makePlans = (name) => callFriend(friendsAvailable, name);
 
-function callFriend(bool, name) {
-    // INSERT CODE HERE
-}
-
+const callFriend = (bool, name) =>
+    bool? `Plans made with ${name} this weekend` : 'Everyone is busy this weekend';
 // Uncomment these to check your work!
 // console.log(makePlans("Mary")) // should return: "Plans made with Mary this weekend'
 // friendsAvailable = false;
