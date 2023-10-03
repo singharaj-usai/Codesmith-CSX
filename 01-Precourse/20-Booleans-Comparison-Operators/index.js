@@ -3,19 +3,23 @@ const small = 2;
 const large = 5342;
 // ADD CODE BELOW (isSmaller)
 
+const isSmaller = small < large;
 
 // 2.
 const num = 45;
 const string = "45";
 // ADD CODE BELOW (isLooselyEqual and isStrictlyEqual)
 
-
+const isLooselyEqual = num == string;
+const isStrictlyEqual = num === string;
+const isBigger = num > string;
 
 // 3.
 const isTrue = true;
 const isFalse = false;
 // ADD CODE BELOW (isTrueNotFalse)
 
+const isTrueNotFalse = isTrue != isFalse;
 
 // Uncomment these to check your work!
 // console.log('Is 2 < 5342?');
