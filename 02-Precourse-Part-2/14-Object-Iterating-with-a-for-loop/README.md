@@ -1,0 +1,3 @@
+## Challenge: Objects - Iterating with a for loop
+
+This time, use the [Object.values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values) method to return an array of `checkObj`'s values, and assign this array to a constant called `objToArray`. Next, use a for loop to iterate through `objToArray` and determine if any of the numbers are divisible by 6. If so, reassign the value of `divBy6` to true.
