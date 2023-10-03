@@ -1,6 +1,12 @@
-function greetings(hour) {
-    // ADD CODE HERE
-}
+const greetings = (hour) => {
+    if (hour < 12) {
+        return "Good Morning!";
+    } else if (hour < 15) {
+        return "Good Afternoon!";
+    } else {
+        return "Good Night!";
+    }
+};
 
 // Uncomment these to check your work!
 // console.log(greetings(8)); // expected log 'Good Morning!'
