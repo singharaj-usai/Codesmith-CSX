@@ -1,4 +1,8 @@
 // ADD CODE HERE
+const addWaldo = (obj) => {
+    obj["Waldo"] = "unknown";
+    return obj;
+}
 
 // Uncomment these to check your work!
 // const siliconValley = {'Richard': 'Hendricks', 'Erlich': 'Bachman', 'Bertram': 'Gilfoyle'}
