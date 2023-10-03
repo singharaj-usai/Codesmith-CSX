@@ -3,4 +3,8 @@
 // "The sum of <x> and <y> is <x + y>"
 // ADD CODE BELOW
 
+let x = 1;
+let y = 2;
 
+const solution = `The sum of ${x} and ${y} is ${x + y}`;
+console.log(solution);
