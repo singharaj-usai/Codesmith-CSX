@@ -5,7 +5,9 @@
 
 // ADD CODE BELOW
 
-
+let mySingleString = 'single quote';
+let myDoubleString = "cool double quotes";
+let myBackString = `uncommon backticks`;
 
 
 // Uncomment the line below to check your work!
