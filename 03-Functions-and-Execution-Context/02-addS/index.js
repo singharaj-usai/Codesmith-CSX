@@ -1,5 +1,5 @@
 // ADD CODE HERE
-const addS = (string) => "s" + string;
+const addS = (string) => string + "s";
 
 // Uncomment these to check your work!
 // console.log(typeof addS); // should log: 'function'
