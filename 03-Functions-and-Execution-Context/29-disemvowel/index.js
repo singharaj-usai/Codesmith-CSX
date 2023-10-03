@@ -1,5 +1,5 @@
 const disemvowel = (string) => {
-    const vowels = "aeiou";
+    const vowels = "aeiouAEIOU";
     let result = "";
 
     for (let i = 0; i < string.length; i++) {
