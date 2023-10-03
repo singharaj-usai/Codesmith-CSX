@@ -7,3 +7,8 @@ const sumMe = {
 };
 let total = 0;
 // ADD CODE HERE
+for (let i in sumMe) {
+    if (typeof sumMe[i] === "number") {
+        total += sumMe[i];
+    }
+}
