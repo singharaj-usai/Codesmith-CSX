@@ -1,5 +1,5 @@
 // MODIFY THE CODE BELOW
-function functionDeclaration() {
+const myFunc = () => {
     return "Hi there!";
 }
 
