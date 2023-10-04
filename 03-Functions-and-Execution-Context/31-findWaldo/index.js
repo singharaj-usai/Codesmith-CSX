@@ -1,5 +1,7 @@
 // ADD CODE HERE
-
+const findWaldo = (obj) => {
+    return obj.hasOwnProperty('Waldo') ? obj['Waldo'] : "Where's Waldo?";
+}
 // Uncomment these to check your work!
 // const DC = {'Bruce': 'Wayne', 'Harley': 'Quinn'}
 // const supernatural = {'Sam': 'Winchester', 'Dean': 'Winchester', 'Waldo': 'unknown'}
