@@ -1,4 +1,4 @@
-function myJob (name, profession) {
+const myJob = (name, profession) => {
     return `Hi, my name is ${name} and I'm a ${profession}.`
 }
 
